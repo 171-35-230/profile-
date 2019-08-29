@@ -1,0 +1,309 @@
+*{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 80%;
+	text-align: center;
+	margin-left: 150px;
+}
+.covernav{
+	height: 80px;
+
+}
+.coverpic{
+	width: 100%;
+	height: auto;
+	position: cover;
+	opacity: 0.7;
+}
+.covername{
+	background-color: #515ef7;
+	width: 19%;
+	color: white;
+	float: left;
+	text-align: center;
+	height: 60px;
+	padding-top: 2%;
+	margin-left: 2px;
+
+}
+a{
+	text-decoration: none;
+	text-decoration-style: none;
+}
+.navigaionbar{
+	background-color: #cacad5;
+	width: 80%;
+	float: right;
+	height: 60px;
+	padding-top: 2%;
+	padding-right: 2px;
+	margin-right: 2px;
+}
+.navigaionbar nav{
+	float: right;
+	
+}
+.picbiodata{
+	margin-top: 23px;
+	background-color: #616564;
+	height: 400px;
+	padding-top: 50px;
+	padding-bottom: 2%;
+}
+.profilepic{
+	float: left;
+	width: 50%;
+}
+.biodata{
+	float: right;
+	width: 50%;
+	text-align: left;
+	line-height: 1.8;
+	color: white;
+}
+.biodata p{
+	line-height: 2;
+}
+.profilepic img{
+	height: 350px;
+	width: 300px;
+}
+.profilepic h3{
+	border: 1px solid lightgreen;
+	background-color: white;	
+	width: 40%;
+	border-top-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	margin-top: 3px;
+
+}
+.skill{
+	width: 100%;
+	margin-top: 25px;
+	height: auto;
+	padding-top: 25px;
+	background-color: #c1c6c6;
+	overflow: hidden;
+}
+.skillpic img{
+	float: right;
+	margin-right: 50px;
+	height: auto;
+	width: 35%;
+	margin-left: 5%;
+}
+.skillstate{
+	float: left;
+	padding: 4%;
+
+}
+.webbox{
+	height: 20px;
+	width: 500px;
+	border:2px solid black;
+	padding: 10px;
+}
+.webbox:hover{
+	transition: 3s;
+	width: 300px;
+	background-color: lightgreen;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 3px 3px 3px black;
+}
+.htmlbox{
+	height: 20px;
+	width: 500px;
+	border:2px solid black;
+	padding: 10px;
+}
+.htmlbox:hover{
+	transition: 3s;
+	width: 250px;
+	background-color: lightgreen;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 3px 3px 3px black;
+}
+.c{
+	height: 20px;
+	width: 500px;
+	border:2px solid black;
+	padding: 10px;
+}
+.c:hover{
+	transition: 3s;
+	width: 300px;
+	background-color: lightgreen;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 3px 3px 3px black;
+}
+.java{
+	height: 20px;
+	width: 500px;
+	border:2px solid black;
+	padding: 10px;
+}
+.java:hover{
+	transition: 3s;
+	width: 375px;
+	background-color: lightgreen;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 3px 3px 3px black;
+}
+.dotnet{
+	height: 20px;
+	width: 500px;
+	border:2px solid black;
+	padding: 10px;
+}
+.dotnet:hover{
+	transition: 3s;
+	width: 350px;
+	background-color: lightgreen;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 3px 3px 3px black;
+}
+.projectwork{
+	margin-top: 100px;
+}
+.projectwork table{
+	width: 50%;
+	border:10px solid white;
+}
+.projectwork td{
+	background-color: black;
+	color: white;
+	padding: 2%;
+	text-align: center;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+h2{
+	text-align: center;
+}
+footer{
+	margin-top: 5px;
+	width: 97%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding:1.2%;
+}
+.inputfield input[type="text"]{
+	display: block;
+	padding: 20px;
+	margin: 10px;
+	width: 300px;
+	border: 1px solid black; 
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 2px 2px 2px black;
+
+}
+.inputfield{
+	float: left;
+	margin-top: 20px;
+}
+.form{
+	margin-top: 30px;
+	padding-top: 30px;
+	background-image: url("image/black-wallpaper-19.jpg");
+	opacity: 0.75;
+	width: 100%;
+	height: 800px;
+}
+.overall{
+	width: 900px;
+	margin: auto;
+	margin-top: 80px;
+	color: white;
+}
+.msgfield textarea{
+	width: 500px;
+	height: 180px;
+	padding: 5px;
+	border: 1px solid black; 
+	padding-bottom: 13px;
+	margin-top: 30px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 2px 2px 2px black;
+
+}
+.contactform{
+	text-align: center;
+}
+.contactform input[type="submit"]{
+	background-color: green;
+	padding: 20px;
+	color: white;
+	font-size:  15px;
+	text-transform: capitalize;
+	font-style: bold;
+	border:0;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.leftdetails{
+	float: left;
+	background-color: green;
+	padding: 20px;
+	width: 280px;
+	margin-left: 20px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.rightdetails{
+	float: right;
+	background-color: green;
+	padding: 20px;
+	width: 280px;
+	margin-right: 20px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.details{
+	margin-top: 30px;
+}
+.leftdetails h3,p{
+	text-align: left;
+	line-height: 1.2;
+
+}
+.rightdetails h3,p{
+	text-align: left;
+	line-height: 1.2;
+
+}
+.para{
+	text-align: center;
+}
